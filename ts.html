@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - College Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .header { background: url('college-banner.jpg') center/cover no-repeat; height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; font-weight: bold; }
+        .nav { display: flex; justify-content: space-between; padding: 15px 30px; background: #2c3e50; position: sticky; top: 0; z-index: 1000; align-items: center; }
+        .nav .logo img { height: 50px; }
+        .nav-links { display: flex; gap: 20px; }
+        .nav a { color: white; text-decoration: none; font-size: 18px; }
+        .nav a:hover { text-decoration: underline; }
+        .container { max-width: 1200px; margin: auto; padding: 40px 20px; }
+        h2 { text-align: center; color: #333; }
+        p { line-height: 1.6; color: #555; }
+        .section { display: flex; gap: 20px; margin-top: 30px; }
+        .text, .image { flex: 1; }
+        .image img { width: 100%; border-radius: 10px; }
+        .footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="logo.png" alt="College Logo"></div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">News and Events</a>
+            <a href="#">Fee Structure</a>
+            <a href="#">About Us</a>
+        </div>
+    </div>
+    
+    <div class="header">About Us</div>
+    
+    <div class="container">
+        <h2>Welcome to our College Management System</h2>
+        <p>Our innovative platform is designed to streamline and simplify the administrative processes of educational institutions. It offers comprehensive tools for seamless management of courses, students, faculty, and much more.</p>
+        
+        <div class="section">
+            <div class="text">
+                <h3>Effortless Navigation & Course Management</h3>
+                <p>Our intuitive interface allows users to explore various features easily. The <strong>Course Page</strong> provides students with access to syllabi, lecture schedules, assignments, and grades, ensuring an organized academic experience.</p>
+                <p>Faculty members can manage assignments, grading, and communication efficiently, creating a better teaching environment.</p>
+            </div>
+            <div class="image"><img src="course-management.jpg" alt="Course Management"></div>
+        </div>
+
+        <div class="section">
+            <div class="image"><img src="student-portal.jpg" alt="Student Portal"></div>
+            <div class="text">
+                <h3>Comprehensive Student & Faculty Portals</h3>
+                <p>The <strong>Student Portal</strong> enables students to view academic records, manage class registrations, and interact with professors. The <strong>Faculty Portal</strong> provides tools for managing class schedules, tracking student progress, and engaging in academic discussions.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="text">
+                <h3>Advanced Administrative Features</h3>
+                <p>Our system simplifies essential processes like <strong>Student Admissions, Fee Management, and Attendance Tracking</strong>. These features ensure smooth operations, making administrative tasks more efficient.</p>
+            </div>
+            <div class="image"><img src="admin-features.jpg" alt="Administrative Features"></div>
+        </div>
+    </div>
+    
+    <div class="footer">&copy; 2025 Eduford | Enhancing Education Through Technology</div>
+</body>
+</html>

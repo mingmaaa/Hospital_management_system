@@ -4,16 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
 }
-
 body {
     padding-top: 80px;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -27,41 +24,34 @@ nav {
     width: 100%;
     z-index: 1000;
 }
-
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #2a7aad;
 }
-
 .nav-links {
     display: flex;
     gap: 30px;
 }
-
 .nav-links a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
 }
-
 .nav-links a:hover {
     color: #2a7aad;
 }
-
 .middle {
     padding: 100px 50px;
     background-color: #ffffff;
     overflow: hidden;
 }
-
 .middle img {
     float: left;
     width: 510px;
     margin-bottom: 70px;
     margin-right: 30px;
 }
-
 .middle .text-content {
     margin-left: 540px; 
     display: flex;
@@ -69,32 +59,27 @@ nav {
     align-items: center;
     gap: 20px;
 }
-
 .middle h1 {
     font-size: 48px;
     color: #404b52;
     margin-bottom: 30px;
     text-align: center;
 }
-
 .middle p {
     color: #666;
     line-height: 1.6;
     text-align: center;
 }
-
 .reviews {
     padding: 80px 50px;
     background-color: #f5f5f5;
 }
-
 .reviews h2 {
     text-align: center;
     color: #404b52;
     font-size: 36px;
     margin-bottom: 40px;
 }
-
 .review-container {
     display: flex;
     justify-content: center;
@@ -105,7 +90,6 @@ nav {
     margin: 0 auto;
     padding: 20px;
 }
-
 .review-box {
     flex: 1;
     min-width: 250px;
@@ -119,7 +103,6 @@ nav {
     align-items: center;
     text-align: center;
 }
-
 .review-box img {
     width: 100px;
     height: 100px;
@@ -128,22 +111,18 @@ nav {
     margin-bottom: 15px;
     border: 3px solid #85b3d1;
 }
-
 .review-box h3 {
     color: #404b52;
     margin-bottom: 10px;
 }
-
 .review-box .stars {
     color: #ffd700;
     margin-bottom: 15px;
 }
-
 .review-box p {
     color: #666;
     line-height: 1.6;
 }
-
 .book-btn {
     text-decoration: none;
     display: inline-block;
@@ -158,7 +137,6 @@ nav {
     transition: all 0.3s ease;
     margin-top: 20px;
 }
-
 .book-btn:hover {
     background-color: #1c5a83;
     transform: translateY(-2px);
